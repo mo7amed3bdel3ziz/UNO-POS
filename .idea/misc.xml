@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable-v24/blue_border.xml" value="0.22" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable-v24/btn.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable-v24/gray_rounded_filled20.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable/blue_rounded_filled20.xml" value="0.20104166666666667" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable/pop_background_1.xml" value="0.125" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable/pop_background_1_1.xml" value="0.124" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/drawable/qr_test_color.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_add_item.xml" value="0.33" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_choise_pay.xml" value="0.18981481481481483" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_closed.xml" value="0.22" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_create_account.xml" value="0.2" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_delete.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_items.xml" value="0.22" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_main.xml" value="0.1734375" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_report.xml" value="0.2" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_reports.xml" value="0.33" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_reports_items.xml" value="0.13645833333333332" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_retern.xml" value="0.16" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_selection.xml" value="0.2" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_test_pagination.xml" value="0.2" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/activity_update_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/bill_row.xml" value="0.22" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/chos_items.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/chos_itemse.xml" value="0.25" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.33" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/dilogchose.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidCashier/app/src/main/res/layout/pop_print.xml" value="0.15052083333333333" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_add_item.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_closed.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_items.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_report.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_reports.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_reports_items.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_retern.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/activity_selection.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/bill_row.xml" value="0.2421875" />
+        <entry key="..\:/Tibco/AndroidCashierLastV/app/src/main/res/layout/chos_itemse.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

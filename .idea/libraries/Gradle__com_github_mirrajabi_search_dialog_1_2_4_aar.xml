@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mirrajabi:search-dialog:1.2.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e76f0805fbf0091e3e61bb9e39e497a1/transformed/jetified-search-dialog-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e76f0805fbf0091e3e61bb9e39e497a1/transformed/jetified-search-dialog-1.2.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e76f0805fbf0091e3e61bb9e39e497a1/transformed/jetified-search-dialog-1.2.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ce53fa0c92f69e87d6f0ce34294bb3b3/transformed/jetified-search-dialog-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ce53fa0c92f69e87d6f0ce34294bb3b3/transformed/jetified-search-dialog-1.2.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ce53fa0c92f69e87d6f0ce34294bb3b3/transformed/jetified-search-dialog-1.2.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a4f436e712c8c86a4970f845f088db57/transformed/jetified-search-dialog-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4f436e712c8c86a4970f845f088db57/transformed/jetified-search-dialog-1.2.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4f436e712c8c86a4970f845f088db57/transformed/jetified-search-dialog-1.2.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6f8dfef8287d4d2d5c0561da490e5301/transformed/jetified-search-dialog-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f8dfef8287d4d2d5c0561da490e5301/transformed/jetified-search-dialog-1.2.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f8dfef8287d4d2d5c0561da490e5301/transformed/jetified-search-dialog-1.2.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/782c21def8d4d09444c1b09348bedc5b/transformed/jetified-search-dialog-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/782c21def8d4d09444c1b09348bedc5b/transformed/jetified-search-dialog-1.2.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/782c21def8d4d09444c1b09348bedc5b/transformed/jetified-search-dialog-1.2.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf7c3cadc1201e6c1defe6777f11989f/transformed/jetified-search-dialog-1.2.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf7c3cadc1201e6c1defe6777f11989f/transformed/jetified-search-dialog-1.2.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bf7c3cadc1201e6c1defe6777f11989f/transformed/jetified-search-dialog-1.2.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mirrajabi/search-dialog/1.2.4/891286abb9252deff32ff8b855c67c97bbe52eeb/search-dialog-1.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

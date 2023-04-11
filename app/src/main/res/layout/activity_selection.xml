@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.SelectionActivity">
+
+        <Button
+            android:id="@+id/salesByCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/sale"
+            android:layout_width="212dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/colorapps"
+            android:text="بيع "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/addPro"
+            android:layout_width="212dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorapps"
+            android:text="اضافه منتج "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sale" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="212dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="35dp"
+            android:background="@color/colorapps"
+            android:text="الاقفال "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Returns" />
+
+        <Button
+            android:id="@+id/UpdateSall"
+            android:layout_width="212dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorapps"
+            android:text="تعديل سعر منتج "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addPro" />
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="212dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="19dp"
+            android:background="@color/colorapps"
+            android:text="التقارير "
+
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/close" />
+
+        <Button
+            android:id="@+id/Returns"
+            android:layout_width="212dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/colorapps"
+            android:text="مرتجعات "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addPro" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

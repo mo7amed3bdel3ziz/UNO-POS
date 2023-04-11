@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="20dp"
+
+    android:background="#fff">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/payWayAndRecordInvoce"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="24dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/blue_rounded_filled20"
+            android:text=" تسجيل الفاتوره والانتقال للدفع "
+            android:textColor="#fff"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Totalse"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/scanQr"
+            style="@style/textStyle"
+            android:layout_width="160dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/blue_border"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="اجمالى الفاتوره  "
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/Totalss"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+
+            android:layout_marginEnd="8dp"
+            android:background="@android:drawable/editbox_background"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="140dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="16dp"
+
+                android:checked="true"
+                android:text="EG pay"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="140dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="16dp"
+
+                android:layout_marginBottom="6dp"
+                android:text="Cash pay"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Totalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text=""
+            android:textColor="#171616"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Totalss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="0.0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="تسجيل الفاتوره"
+            android:background="@android:drawable/editbox_background"
+
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Totalss" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

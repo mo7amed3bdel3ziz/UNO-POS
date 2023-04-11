@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_background_1"
+        android:fadeScrollbars="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarSize="90pt"
+        android:scrollbars="horizontal"
+        tools:verticalScrollbarPosition="defaultPosition">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:textColor="#FFF"
+            android:textSize="9sp">
+
+
+            <TextView
+
+                android:id="@+id/txt_Open_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pop_background_1_1"
+
+                android:inputType="numberSigned|numberDecimal"
+                android:text="فتح الطابعة"
+                android:textColor="#FFF"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="9sp">
+        <TextView
+
+            android:id="@+id/txt_ConfirmWithPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/pop_background_1_1"
+
+            android:inputType="numberSigned|numberDecimal"
+            android:text="تسجيل وطباعة"
+            android:textColor="#FFF"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+        <TableRow
+            android:id="@+id/TableRowConfirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textSize="9sp">
+            <TextView
+
+                android:id="@+id/txt_Confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pop_background_1_1"
+
+                android:inputType="numberSigned|numberDecimal"
+                android:text="تسجيل بدون طباعة"
+                android:textColor="#FFF"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textSize="9sp">
+            <TextView
+
+                android:id="@+id/txt_Close_print"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pop_background_1_1"
+
+                android:inputType="numberSigned|numberDecimal"
+                android:text="أغلاق الطابعة"
+                android:textColor="#FFF"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textSize="9sp">
+            <TextView
+
+                android:id="@+id/txt_Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pop_background_1_1"
+
+                android:inputType="numberSigned|numberDecimal"
+                android:text="غير موافق"
+                android:textColor="#FFF"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="9sp">
+        <TextView
+
+            android:id="@+id/txt_Msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/pop_background_1_1"
+
+            android:inputType="numberSigned|numberDecimal"
+            android:text=""
+            android:textColor="#FFF"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
